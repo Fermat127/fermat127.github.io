@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in Mathematics, University of Copenhagen, 2022
+* B.S. in Mathematics, University of Copenhagen, 2022 
 * M.S. in Mathematics, University of Copenhagen, 2025(expected)
 
   
