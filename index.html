@@ -1,38 +1,63 @@
----
-layout: default
-title: My Personal Website
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header, section {
+      margin-bottom: 40px;
+    }
+    img {
+      max-width: 200px;
+      border-radius: 50%;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
 
-# Welcome 👋
+  <header>
+    <h1>Welcome 👋</h1>
+    <img src="assets/me.jpg" alt="My Photo">
+  </header>
 
-![My Photo](assets/me.JPG){:style="max-width:200px; border-radius:50%;"}
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m <strong>[Your Name]</strong>.  
+    I’m interested in [your interests here].  
+    This site is where I share my projects, papers, and writing.</p>
+  </section>
 
----
+  <section id="paper">
+    <h2>Paper</h2>
+    <p><strong>Title of the Paper</strong><br>
+    <em>Author: Your Name</em></p>
+    <p><a href="assets/mypaper.pdf">📄 Read the full paper (PDF)</a></p>
+  </section>
 
-## About Me
-Hi, I’m **[Your Name]**.  
-I’m interested in [your interests here].  
-This site is where I share my projects, papers, and writing.
+  <section id="writing">
+    <h2>Expository Writing</h2>
+    <h3>The Idea</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+    <h3>Expansion</h3>
+    <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+  </section>
 
----
-
-## Paper
-Here is one of my papers:  
-
-**Title of the Paper**  
-_Author: Your Name_  
-
-[📄 Read the full paper (PDF)](assets/mypaper.pdf)
-
----
-
-## Expository Writing
-Here’s a piece of expository writing I’ve been working on:  
-
-### The Idea
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-Suspendisse varius enim in eros elementum tristique.  
-
-### Expansion
-Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.  
-
+</body>
+</html>
