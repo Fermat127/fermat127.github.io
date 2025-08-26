@@ -15,11 +15,16 @@
       margin-bottom: 40px;
     }
     img {
-      max-width: 200px;
-      border-radius: 50%;
+      max-width: 400px; /* doubled size */
+      border-radius: 10px; /* rectangular with slight rounded corners */
+      height: auto;
+      display: block;
+      margin: 20px auto; /* center the image */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* subtle shadow */
     }
     h1, h2 {
       color: #333;
+      text-align: center;
     }
     a {
       color: #007acc;
@@ -28,13 +33,17 @@
     a:hover {
       text-decoration: underline;
     }
+    p a {
+      display: inline-block;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
 
   <header>
     <h1>Welcome 👋</h1>
-    <img src="assets/me.JPEG" alt="My Photo">
+    <img src="assets/me.JPG" alt="My Photo">
     <p><a href="assets/cv.pdf">📄 Download My CV</a></p>
   </header>
 
@@ -57,11 +66,11 @@
     
     <h3>Six Functor Formalism on Anima and Poincaré Duality</h3>
     <p>Notes that I wrote for Topics in Algebraic Topology and UCPH: 
-    <a href="assets/totaldoc.pdf">📄 Download Notes</a></p>
+    <a href="assets/six-functor-notes.pdf">📄 Download Notes</a></p>
     
     <h3>Frobenii and its Action on Projective Space</h3>
-    <p>Notes that I wrote for a project with Qingyuan Bai: 
-    <a href="assets/prob.pdf">📄 Download Notes</a></p>
+    <p>Notes that I wrote for a project: 
+    <a href="assets/frobenii-notes.pdf">📄 Download Notes</a></p>
   </section>
 
 </body>
