@@ -1,99 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: auto;
-      line-height: 1.6;
-      padding: 20px;
-    }
-    header, section {
-      margin-bottom: 40px;
-    }
-    img {
-      max-width: 400px; /* doubled size */
-      border-radius: 10px; /* rectangular with slight rounded corners */
-      height: auto;
-      display: block;
-      margin: 20px auto; /* center the image */
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* subtle shadow */
-    }
-    h1, h2 {
-      color: #333;
-      text-align: center;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    p a {
-      display: inline-block;
-      margin-top: 10px;
-    }
-  </style>
-  .navbar {
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-    border-radius: 6px;
-    margin-bottom: 40px;
-}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.navbar a {
-    color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-}
+  <title>Andreas Momme Studsgaard</title>
 
-.navbar a:hover {
-    background-color: #007acc;
-    text-decoration: none;
-}
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <header>
-<h1>Andreas Momme Studsgaard webpage </h1>
-<img src="assets/me.JPEG" alt="My Photo">
+  <h1>Andreas Momme Studsgaard webpage</h1>
+  <img src="assets/me.JPEG" alt="My Photo">
 </header>
 
 <nav class="navbar">
-    <a href="seminars.html">Seminars</a>
+  <a href="index.html" class="active">Home</a>
+  <a href="seminars.html">Seminars</a>
 </nav>
 
 <section id="about">
-    <h2>About Me</h2>
-    <p>Hi, I’m <strong>Andreas Momme Studsgaard</strong>.  
-    This is my personal webpage.  
-    I am a PhD student at Université Paris-Saclay working under supervision of Tasos Moulinos.  
-    My interests lie in homotopy theory and arithmetic geometry.  
+  <h2>About Me</h2>
+
+  <p>
+    Hi, I’m <strong>Andreas Momme Studsgaard</strong>.
+    This is my personal webpage.
+    I am a PhD student at Université Paris-Saclay working under supervision of Tasos Moulinos.
+    My interests lie in homotopy theory and arithmetic geometry.
     Email: andreas(dot)momme(at)outlook(dot)dk
-    <p><a href="assets/CV.pdf">📄 Download My CV</a></p>
+  </p>
 
-  </section>
+  <p>
+    <a href="assets/CV.pdf">📄 Download My CV</a>
+  </p>
+</section>
 
-  <section id="paper">
-    <h2>Papers</h2>
-    <p><strong>Nothing yet but hopefully soon</strong></p>
-  </section>
+<section id="paper">
+  <h2>Papers</h2>
 
-  <section id="writing">
-    <h2>Expository Writing</h2>
-    
-    <h3>Six functor formalism on anima and Poincaré duality</h3>
-    <p>Notes that I wrote for Topics in algebraic topology and UCPH: 
-    <a href="assets/totaldoc.pdf">📄 Download Notes</a></p>
-    
-    <h3>Frobenii and its action on projective space</h3>
-    <p>Notes that I wrote for a project with Qingyuan Bai: 
-    <a href="assets/prob.pdf">📄 Download Notes</a></p>
-  </section>
+  <p>
+    <strong>Nothing yet but hopefully soon</strong>
+  </p>
+</section>
+
+<section id="writing">
+  <h2>Expository Writing</h2>
+
+  <h3>Six functor formalism on anima and Poincaré duality</h3>
+
+  <p>
+    Notes that I wrote for Topics in algebraic topology and UCPH:
+    <a href="assets/totaldoc.pdf">📄 Download Notes</a>
+  </p>
+
+  <h3>Frobenii and its action on projective space</h3>
+
+  <p>
+    Notes that I wrote for a project with Qingyuan Bai:
+    <a href="assets/prob.pdf">📄 Download Notes</a>
+  </p>
+</section>
 
 </body>
+
 </html>
