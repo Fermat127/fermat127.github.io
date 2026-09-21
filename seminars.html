@@ -58,4 +58,266 @@ a:hover {
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Seminars - Andreas Momme Studsgaard</title>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header, section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+h3 {
+    color: #333;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation bar */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.navbar a {
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #007acc;
+    text-decoration: none;
+}
+
+.navbar .active {
+    background-color: #007acc;
+}
+
+/* Seminar information */
+
+.seminar-info {
+    margin-bottom: 30px;
+}
+
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.schedule th,
+.schedule td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    vertical-align: top;
+}
+
+.schedule th {
+    color: #333;
+}
+
+.schedule tr:hover {
+    background-color: #f5f5f5;
+}
+
+.date {
+    white-space: nowrap;
+    width: 120px;
+}
+
+.talk {
+    width: 70px;
+}
+
+@media (max-width: 600px) {
+    .schedule th,
+    .schedule td {
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    .date {
+        width: auto;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="seminars.html" class="active">Seminars</a>
+</nav>
+
+
+<header>
+
+<h1>Seminars</h1>
+
+</header>
+
+
+<section>
+
+<h2>Stable and Chromatic Homotopy Theory</h2>
+
+<div class="seminar-info">
+
+<p>
+Academic year 2026–2027.
+</p>
+
+<p>
+The seminar begins with the foundations of stable homotopy theory,
+including spectra, filtered spectra, Eilenberg–MacLane spectra,
+the Steenrod algebra and the Adams spectral sequence.
+The later part of the seminar will move toward chromatic homotopy theory
+and the nilpotence theorem.
+</p>
+
+</div>
+
+
+<h3>Schedule</h3>
+
+<table class="schedule">
+
+<thead>
+<tr>
+    <th class="date">Date</th>
+    <th class="talk">Talk</th>
+    <th>Topic</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+    <td>8 October 2026</td>
+    <td>1</td>
+    <td>Spectra — Krause, §3</td>
+</tr>
+
+<tr>
+    <td>15 October 2026</td>
+    <td>2</td>
+    <td>Spectra — Krause, §3</td>
+</tr>
+
+<tr>
+    <td>22 October 2026</td>
+    <td>3</td>
+    <td>The t-structure on spectra — Krause, §4</td>
+</tr>
+
+<tr>
+    <td>29 October 2026</td>
+    <td>4</td>
+    <td>Filtered spectra and spectral sequences — Krause, §5</td>
+</tr>
+
+<tr>
+    <td>19 November 2026</td>
+    <td>5</td>
+    <td>Eilenberg–MacLane cohomology — Krause, §6</td>
+</tr>
+
+<tr>
+    <td>26 November 2026</td>
+    <td>6</td>
+    <td>Eilenberg–MacLane cohomology — Krause, §6</td>
+</tr>
+
+<tr>
+    <td>3 December 2026</td>
+    <td>7</td>
+    <td>Ring spectra, modules and the Steenrod algebra — Krause, §7</td>
+</tr>
+
+<tr>
+    <td>10 December 2026</td>
+    <td>8</td>
+    <td>The Steenrod algebra and its dual — Krause, §7</td>
+</tr>
+
+<tr>
+    <td>17 December 2026</td>
+    <td>9</td>
+    <td>The Adams spectral sequence — Krause, §8</td>
+</tr>
+
+<tr>
+    <td>TBA</td>
+    <td>10</td>
+    <td>The Adams spectral sequence — Krause, §8</td>
+</tr>
+
+<tr>
+    <td>TBA</td>
+    <td>11</td>
+    <td>Examples — Krause, §9</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+
+<section>
+
+<h3>References</h3>
+
+<p>
+<strong>Achim Krause.</strong>
+Notes on stable and chromatic homotopy theory.
+</p>
+
+<p>
+<strong>Jacob Lurie.</strong>
+<a href="https://www.math.ias.edu/~lurie/252x.html">
+Chromatic Homotopy Theory
+</a>.
+</p>
+
+</section>
+
+
+</body>
+</html>
