@@ -38,15 +38,36 @@
       margin-top: 10px;
     }
   </style>
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.navbar a {
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #007acc;
+    text-decoration: none;
+}
 </head>
 <body>
+<header>
+<h1>Andreas Momme Studsgaard webpage </h1>
+<img src="assets/me.JPEG" alt="My Photo">
+</header>
 
-  <header>
-    <h1>Andreas Momme Studsgaard webpage </h1>
-    <img src="assets/me.JPEG" alt="My Photo">
-  </header>
+<nav class="navbar">
+    <a href="seminars.html">Seminars</a>
+</nav>
 
-  <section id="about">
+<section id="about">
     <h2>About Me</h2>
     <p>Hi, I’m <strong>Andreas Momme Studsgaard</strong>.  
     This is my personal webpage.  
